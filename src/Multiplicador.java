@@ -5,17 +5,16 @@ public class Multiplicador {
         Mult();
     }
     public static void Mult(){
-        // declaração de variaveis para não ter problema com as memoria
-        double n1, n2, total=0;
-        String system_input="";
 
-        system_input = JOptionPane.showInputDialog(null, "first number: ");
-        n1= Double.parseDouble(system_input);
-        system_input = JOptionPane.showInputDialog(null, "second number: ");
-        n2 = Double.parseDouble(system_input);
+        double numero1, numero2, total=0;
+        String valores="";
 
-        //multiplicação dos valores
-        total = n1 * n2;
+        valores = JOptionPane.showInputDialog(null, "first number: ");
+        numero1= Double.parseDouble(valores);
+        valores = JOptionPane.showInputDialog(null, "second number: ");
+        numero2 = Double.parseDouble(valores);
+        //multiplicação dos valores abaixo
+        total = numero1 * numero2;
         JOptionPane.showMessageDialog(null, "product is: " + total);
     }
 }
