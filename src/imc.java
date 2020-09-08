@@ -19,7 +19,7 @@ public class imc {
     }
     public static void imc(){
         double peso, altura, total= 0;
-        int imc = 0, imc2 = 0;
+        int imc = 0;
         String inp = "";
         try {
             inp = JOptionPane.showInputDialog(null, "Insira o peso(em kilogramas)", "Calculo do IMC", 1);
